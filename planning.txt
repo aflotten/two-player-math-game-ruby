@@ -1,0 +1,33 @@
+Classes: 
+{
+  name: "John",
+  lives: 3
+}
+- Players:
+  - track lives
+  - correct is nil
+  - incorrect is -1
+
+- Math questions/Answers:
+  - generate random numbers
+  - decide which question to display
+  - additions questions "#{currentPlayer}: What is #{rand1} + #{rand2} ?"
+
+- game:
+  - initialize again with two players from player class with name/lives
+  - current_player = player1 -> set current_player to player1
+  - control flow of game itself - current player 
+  - get questions from question class for current player
+  - if else response on correct or not
+  - deduct a life and tell user how many lives are remaining
+  - switch player unless lives are zero
+
+
+- Main file
+  - initialize the game
+  - use gets.chomp or ARGV to retrieve player name -> new player Class
+  - track whos turn it is? Then create new turn Class
+  - end game and write message
+
+
+
